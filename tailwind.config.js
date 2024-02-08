@@ -20,6 +20,10 @@ export default {
   plugins: [
     require('flowbite/plugin')
   ],
+  fontFamily: {
+    sans: ['Inter', 'Roboto', 'Arial', 'Borels'], // Add Borels to sans-serif stack
+    // ... other font families
+  },
 
 }
 

@@ -4,5 +4,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
-  
+  tailwindcss: {
+    content: ["assets/css/heading.css"], // Add path to your CSS file
+  },
 })
